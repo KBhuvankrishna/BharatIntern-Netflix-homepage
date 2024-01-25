@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0" />
+        <title>NETFLIX HOMEPAGE</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar" id="nav">
+            <img src="netflix-logo.png" class="logo">
+            <img src="netflix-avatar.png" class="avatar">
+        </div>
+        <div class="banner">
+            <div class="bannercontent">
+                <h1 class="title">LEO</h1>
+                <div class="button">
+                    <button class="bannerbutton">Play</button>
+                    <button class="bannerbutton">More Info</button>
+                </div>
+                <div class="description">
+                    Violently pursued by criminals who insist he's a former gangster, a humble cafe owner fights to shield his family — and the truth about his identity
+                </div>
+            </div>
+            <div class="bannerfade">
+
+            </div>
+        </div>
+        <div class="row">
+            <h2>NETFLIX ORIGINALS</h2>
+            <div class="rowposters">
+                <img src="large-movie1.jpg" class="poster large">
+                <img src="large-movie2.jpg" class="poster large">
+                <img src="large-movie3.jpg" class="poster large">
+                <img src="large-movie4.jpg" class="poster large">
+                <img src="large-movie5.jpg" class="poster large">
+                <img src="large-movie6.jpg" class="poster large">
+                <img src="large-movie7.jpg" class="poster large">
+                <img src="large-movie8.jpg" class="poster large">
+            </div>
+        </div>
+        <div class="row">
+            <h2>TRENDING NOW</h2>
+            <div class="rowposters">
+                <img src="small-movie1.jpg" class="poster">
+                <img src="small-movie2.jpg" class="poster">
+                <img src="small-movie3.jpg" class="poster">
+                <img src="small-movie4.jpg" class="poster">
+                <img src="small-movie5.jpg" class="poster">
+                <img src="small-movie6.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>TOP RATED</h2>
+            <div class="rowposters">
+                <img src="swades2.jpg" class="poster">
+                <img src="poh.jpg" class="poster">
+                <img src="lagaan.jpg" class="poster">
+                <img src="mh.jpg" class="poster">
+                <img src="small-movie5.jpg" class="poster">
+                <img src="dk.jpg" class="poster">
+                <img src="gow.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>ACTION MOVIES</h2>
+            <div class="rowposters">
+                <img src="beast.jpg" class="poster">
+                <img src="Extraction.jpg" class="poster">
+                <img src="jawan.jpg" class="poster">
+                <img src="mersal.jpg" class="poster">
+                <img src="sarkar.jpg" class="poster">
+                <img src="small-movie6.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>COMEDY MOVIES</h2>
+            <div class="rowposters">
+                <img src="office.png" class="poster">
+                <img src="friends.jpg" class="poster">
+                <img src="pk.jpg" class="poster">
+                <img src="khnh.jpg" class="poster">
+                <img src="dch.jpg" class="poster">
+                <img src="as.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>HORROR MOVIES</h2>
+            <div class="rowposters">
+                <img src="st.jpg" class="poster">
+                <img src="stree.jpg" class="poster">
+                <img src="twd.jpg" class="poster">
+                <img src="viru.jpg" class="poster">
+                <img src="ck.jpg" class="poster">
+                <img src="db.jpg" class="poster">
+                <img src="insi.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>ROMANTIC MOVIES</h2>
+            <div class="rowposters">
+                <img src="ok.jpg" class="poster">
+                <img src="dilse.jpg" class="poster">
+                <img src="adhm.jpg" class="poster">
+                <img src="love.jpg" class="poster">
+                <img src="kushi.jpg" class="poster">
+                <img src="hinanna.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <div class="row">
+            <h2>DOCUMENTARIES</h2>
+            <div class="rowposters">
+                <img src="veer.jpg" class="poster">
+                <img src="curr.jpg" class="poster">
+                <img src="ip.jpg" class="poster">
+                <img src="htbat.jpg" class="poster">
+                <img src="aa.jpg" class="poster">
+                <img src="ro.jpg" class="poster">
+                <img src="small-movie7.jpg" class="poster">
+                <img src="small-movie8.jpg" class="poster">
+            </div>
+        </div>
+        <script>
+            const nav=document.getElementById("nav")
+            window.addEventListener("scroll",()=>{
+                if(window.scrollY>=100){
+                    nav.classList.add("navblack");
+                }
+                else{
+                    nav.classList.remove("navblack");
+                }
+            });
+        </script>
+    </body>
+</html>
