@@ -108,3 +108,9 @@ body{
 .navblack{
     background-color: #111;
 }
+.Search{
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    display: contents;
+}
